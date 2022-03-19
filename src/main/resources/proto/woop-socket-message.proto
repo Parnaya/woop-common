@@ -21,6 +21,6 @@ message EntityCreate {
 }
 
 message Tag {
-  string key = 1;
-  string value = 2;
+  bytes id = 1;
+  google.protobuf.Struct data = 2;
 }
